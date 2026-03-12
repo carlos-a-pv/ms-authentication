@@ -4,7 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dab7d18-0161-43f0-a98f-bf0951111ed0" name="Changes" comment="" />
+    <list default="true" id="2dab7d18-0161-43f0-a98f-bf0951111ed0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/constant/ApplicationConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/RoleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/request/JwtRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/request/UserRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/response/ErrorResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/response/JwtResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/response/UserResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/entity/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/exception/AlreadyExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/service/IAuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/service/impl/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +55,20 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -50,7 +90,9 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "feature/JS-3100",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/rlokendra480/jwt-security"
