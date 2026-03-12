@@ -48,6 +48,7 @@ public class UserMapper {
                 roleDTOList.add(roleDTO);
             });
         }
+        userResponseDTO.setRoles(roleDTOList);
         return userResponseDTO;
     }
 }
