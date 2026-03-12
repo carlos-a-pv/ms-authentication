@@ -20,7 +20,7 @@ public class AuthController {
     private final IAuthService authService;
 
     @PostMapping("/login")
-    public ResponseEntity<JwtResponseDTO> register(@RequestBody JwtRequestDTO requestDTO){
+    public ResponseEntity<JwtResponseDTO> logins(@RequestBody JwtRequestDTO requestDTO){
         return ResponseEntity.ok(authService.login(requestDTO));
     }
 
