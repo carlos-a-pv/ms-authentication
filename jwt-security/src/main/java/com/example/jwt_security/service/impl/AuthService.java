@@ -29,8 +29,8 @@ public class AuthService implements IAuthService {
 
     private final UserRepository userRepository;
     private final RoleRepository roleRepository;
-    private final JwtService jwtService;
-    private final PasswordEncoder passwordEncoder;
+//    private final JwtService jwtService;
+//    private final PasswordEncoder passwordEncoder;
     private final UserMapper userMapper;
 
     @Override
@@ -47,22 +47,31 @@ public class AuthService implements IAuthService {
         User user = userMapper.toEntity(request);
         user.setCreatedAt(LocalDateTime.now());
         user.setUpdatedAt(LocalDateTime.now());
-        user.setPassword(passwordEncoder.encode(request.getPassword()));
-        User savedUser = userRepository.save(user);
+       // user.setPassword(passwordEncoder.encode(request.getPassword()));
+        user.setPassword(request.getPassword());
 
         List<UserRole> userRoleList = new ArrayList<>();
         if(request.getRoles() != null && !request.getRoles().isEmpty()){
             request.getRoles().forEach(roleDTO -> {
                 UserRole userRole = new UserRole();
-                Role role = roleRepository.findByRoleName(roleDTO.getRoleName())
-                        .orElseThrow(() -> new ResourceNotFoundException(ApplicationConstant.ROLE_NOT_FOUND));
-                userRole.setUser(savedUser);
-                userRole.setRole(role);
+                Role role = null;
+                //default customer role if role is not exist
+                if(roleDTO.getRoleName()==null){
+                    role = roleRepository.findByRoleNameIgnoreCase(ApplicationConstant.CUSTOMER)
+                            .orElseThrow(() -> new ResourceNotFoundException(ApplicationConstant.ROLE_NOT_FOUND));
+                    userRole.setUser(user);
+                    userRole.setRole(role);
+                }else{
+                    role = roleRepository.findByRoleNameIgnoreCase(roleDTO.getRoleName())
+                            .orElseThrow(() -> new ResourceNotFoundException(ApplicationConstant.ROLE_NOT_FOUND));
+                    userRole.setUser(user);
+                    userRole.setRole(role);
+                }
                 userRoleList.add(userRole);
             });
         }
-        savedUser.setUserRoles(userRoleList);
-        userRepository.save(savedUser);
+        user.setUserRoles(userRoleList);
+        User savedUser = userRepository.save(user);
         return userMapper.toDTO(savedUser);
     }
 }
