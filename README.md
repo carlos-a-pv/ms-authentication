@@ -61,3 +61,7 @@ Fine-grained access control
 Secure API communication
 
 Reduced server overhead (no sessions)
+
+📌 Future Improvements
+
+Refresh token implementation
