@@ -10,9 +10,6 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import static com.example.jwt_security.constant.ApplicationConstant.ADMIN;
-import static com.example.jwt_security.constant.ApplicationConstant.CUSTOMER;
-
 @Configuration
 @RequiredArgsConstructor
 @Slf4j
