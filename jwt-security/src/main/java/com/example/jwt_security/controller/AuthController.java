@@ -26,12 +26,6 @@ public class AuthController {
 
     @PostMapping("/register")
     public ResponseEntity<UserResponseDTO> register(@RequestBody UserRequestDTO requestDTO){
-        try{
-            return ResponseEntity.ok(authService.register(requestDTO));
-        }catch(Exception e){
-            e.printStackTrace();
-            return null;
-        }
-
+        return ResponseEntity.ok(authService.register(requestDTO));
     }
 }
