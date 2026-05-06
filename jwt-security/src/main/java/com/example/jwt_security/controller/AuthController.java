@@ -24,8 +24,14 @@ public class AuthController {
         return ResponseEntity.ok(authService.login(requestDTO));
     }
 
-    @PostMapping("/register")
+    @PostMapping("/recover-password")
     public ResponseEntity<UserResponseDTO> register(@RequestBody UserRequestDTO requestDTO){
         return ResponseEntity.ok(authService.register(requestDTO));
     }
+
+    @PostMapping("/reset-password")
+    public ResponseEntity<UserResponseDTO> resetPassword(@RequestBody UserRequestDTO requestDTO){
+        return ResponseEntity.ok(authService.resetPassword(requestDTO));
+    }
+
 }

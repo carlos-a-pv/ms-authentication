@@ -5,31 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dab7d18-0161-43f0-a98f-bf0951111ed0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/constant/ApplicationConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/RoleDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/request/JwtRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/request/UserRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/response/ErrorResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/response/JwtResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/response/UserResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/entity/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/exception/AlreadyExistException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/repository/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/service/IAuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/service/impl/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/RoleDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/request/UserRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/request/UserRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/response/UserResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/response/UserResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/entity/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/entity/UserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/repository/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/security/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/security/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/service/IAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/service/IAuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/service/impl/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/service/impl/AuthService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jwt-security/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,8 +49,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -86,18 +79,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feature/JS-3100",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/rlokendra480/jwt-security"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.JwtSecurityApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/uniquindio/decimo_semestre/microservicios/final_project/ms-auth&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="JwtSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="jwt-security" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.jwt_security.JwtSecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2dab7d18-0161-43f0-a98f-bf0951111ed0" name="Changes" comment="" />
@@ -105,8 +133,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1773302392371</updated>
+      <workItem from="1778042151742" duration="3313000" />
+      <workItem from="1778074287812" duration="4978000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

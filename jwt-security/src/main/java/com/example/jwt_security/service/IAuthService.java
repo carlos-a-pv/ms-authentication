@@ -9,4 +9,5 @@ public interface IAuthService {
 
     JwtResponseDTO login(JwtRequestDTO request);
     UserResponseDTO register(UserRequestDTO request);
+    UserResponseDTO resetPassword(UserRequestDTO request);
 }
