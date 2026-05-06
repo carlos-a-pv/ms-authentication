@@ -1,0 +1,79 @@
+# =========================
+# Compilación / Build
+# =========================
+/build/
+out/
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle/wrapper/gradle-wrapper.jar
+
+# Logs
+*.log
+
+# =========================
+# Archivos temporales
+# =========================
+*.tmp
+*.swp
+*.swo
+*~
+
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Archivos específicos de usuario
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/libraries
+
+# =========================
+# Sistema operativo
+# =========================
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# =========================
+# Archivos de configuración sensibles
+# =========================
+application.properties
+application.yml
+application-*.yml
+application-*.properties
+
+# (Opcional: si manejas configs con variables de entorno, puedes versionar uno de ejemplo)
+!application-example.yml
+
+# =========================
+# Archivos de test / coverage
+# =========================
+/coverage/
+*.lcov
+
+# =========================
+# Otros
+# =========================
+*.pid
+*.seed
+*.lock
