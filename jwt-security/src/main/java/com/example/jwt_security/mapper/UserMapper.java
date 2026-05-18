@@ -21,16 +21,17 @@ public class UserMapper {
         return user;
     }
 
-    public UserResponseDTO toDTO(User user) {
+    public static UserResponseDTO toDTO(User user) {
         if(user == null) {
             return null;
         }
         UserResponseDTO userResponseDTO = new UserResponseDTO();
         userResponseDTO.setId(user.getId());
         userResponseDTO.setUsername(user.getUsername());
-        userResponseDTO.setPassword(null);  //Note: We should not expose the password in the response DTO for security reasons.
+        userResponseDTO.setPassword(null);
         userResponseDTO.setCreatedAt(user.getCreatedAt());
         userResponseDTO.setUpdatedAt(user.getUpdatedAt());
+        userResponseDTO.setStatus(user.getStatus());
 
         return userResponseDTO;
     }

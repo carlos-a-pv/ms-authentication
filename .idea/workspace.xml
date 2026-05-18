@@ -5,20 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dab7d18-0161-43f0-a98f-bf0951111ed0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/request/ResetPasswordDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jwt-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/config/RabbitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/config/RabbitConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/constant/ApplicationConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/constant/ApplicationConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/controller/AdminController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/RoleDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/request/UserRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/request/UserRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/controller/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/response/JwtResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/response/JwtResponseDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/response/UserResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/response/UserResponseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/entity/Role.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/entity/UserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/infrastructure/RabbitmqEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/infrastructure/RabbitmqEventListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/repository/RoleRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/security/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/security/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/security/CustomUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/security/JwtFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/security/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/security/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/security/SecurityConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/service/IAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/service/IAuthService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/service/impl/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/service/impl/AuthService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jwt-security/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/resources/application.properties" afterDir="false" />
@@ -49,10 +55,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
+        <option value="Interface" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -102,13 +108,20 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\uniquindio\decimo_semestre\microservicios\final_project\ms-auth" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="JwtSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="jwt-security" />
@@ -135,6 +148,29 @@
       <updated>1773302392371</updated>
       <workItem from="1778042151742" duration="3313000" />
       <workItem from="1778074287812" duration="4978000" />
+      <workItem from="1778213260962" duration="1731000" />
+      <workItem from="1778387891107" duration="2139000" />
+      <workItem from="1778543707211" duration="6035000" />
+      <workItem from="1778552449048" duration="4689000" />
+      <workItem from="1778559085476" duration="1227000" />
+      <workItem from="1778560771443" duration="6700000" />
+      <workItem from="1778599796072" duration="6855000" />
+      <workItem from="1778622579012" duration="174000" />
+      <workItem from="1778625935198" duration="12783000" />
+      <workItem from="1778642807027" duration="1231000" />
+      <workItem from="1778795122185" duration="1680000" />
+      <workItem from="1778800664952" duration="527000" />
+      <workItem from="1778801463168" duration="2343000" />
+      <workItem from="1778814202890" duration="2363000" />
+      <workItem from="1778816639120" duration="77000" />
+      <workItem from="1778816744733" duration="3068000" />
+      <workItem from="1779083621041" duration="2694000" />
+      <workItem from="1779087368008" duration="608000" />
+      <workItem from="1779088396824" duration="45000" />
+      <workItem from="1779088900262" duration="183000" />
+      <workItem from="1779116162854" duration="520000" />
+      <workItem from="1779117474609" duration="142000" />
+      <workItem from="1779118529805" duration="4292000" />
     </task>
     <servers />
   </component>
