@@ -5,29 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dab7d18-0161-43f0-a98f-bf0951111ed0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/request/ResetPasswordDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/config/RabbitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/config/RabbitConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/constant/ApplicationConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/constant/ApplicationConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/controller/AdminController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/controller/CustomerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/response/JwtResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/response/JwtResponseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/response/UserResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/response/UserResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/request/JwtRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/dto/request/JwtRequestDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/exception/GlobalExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/infrastructure/RabbitmqEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/infrastructure/RabbitmqEventListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/security/CustomUserDetailsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/security/JwtFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/security/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/security/JwtService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/security/SecurityConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/service/IAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/service/IAuthService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/service/impl/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/java/com/example/jwt_security/service/impl/AuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt-security/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-security/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,6 +156,13 @@
       <workItem from="1779116162854" duration="520000" />
       <workItem from="1779117474609" duration="142000" />
       <workItem from="1779118529805" duration="4292000" />
+      <workItem from="1779209475828" duration="847000" />
+      <workItem from="1779237797901" duration="880000" />
+      <workItem from="1779243852275" duration="330000" />
+      <workItem from="1779244729431" duration="167000" />
+      <workItem from="1779259906650" duration="296000" />
+      <workItem from="1779261749976" duration="654000" />
+      <workItem from="1779301081487" duration="7951000" />
     </task>
     <servers />
   </component>
